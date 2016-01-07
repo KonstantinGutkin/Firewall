@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MyForms
+namespace lab4.MyForms
 {
     public partial class InformationForm : Form
     {

@@ -1,4 +1,4 @@
-﻿namespace MyForms
+﻿namespace lab4.MyForms
 {
     partial class InformationForm
     {
