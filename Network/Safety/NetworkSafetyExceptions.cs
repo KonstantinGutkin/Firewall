@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace Network.Safety
+namespace lab4.Network.Safety
 {
-    class InvalidFilterException : Exception
+    public class InvalidFilterException : Exception
     {
         public InvalidFilterException() : base() { }
 

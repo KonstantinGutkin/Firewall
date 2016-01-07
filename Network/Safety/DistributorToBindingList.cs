@@ -1,14 +1,14 @@
 ﻿using System.Diagnostics;
 using System.ComponentModel;
 
-namespace Network.Safety
+namespace lab4.Network.Safety
 {
     public abstract class DistributorOfFirewall
     {
         public abstract void Distribut(NetworkPacket packet);
     }
 
-    class DistributorToBindingList : DistributorOfFirewall
+    public class DistributorToBindingList : DistributorOfFirewall
     {
         BindingList<string> _location;
 

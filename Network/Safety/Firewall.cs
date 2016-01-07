@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Network.Safety
+namespace lab4.Network.Safety
 {    
     public class Firewall
     {

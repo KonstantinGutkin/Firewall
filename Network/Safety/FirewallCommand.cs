@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Network.Safety
+namespace lab4.Network.Safety
 {
     public abstract class FirewallCommand
     {

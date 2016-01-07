@@ -1,11 +1,11 @@
 ﻿using System.Diagnostics;
 
-namespace Network
+namespace lab4.Network
 {
     using PatternObserver;
     using HelperClasses;
 
-    class VirtualTrafficsSniffer : Sniffer, IObserver
+    public class VirtualTrafficsSniffer : Sniffer, IObserver
     {
         TrafficGenerator _generator;
         byte[] _binPacket;

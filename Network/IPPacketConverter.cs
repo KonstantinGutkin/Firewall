@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Network
+namespace lab4.Network
 {
-    class IPPacketConverter : PacketConverter
+    public class IPPacketConverter : PacketConverter
     {
         public override NetworkPacket ConvertPacket(byte[] binPacket) {
             Debug.Assert(binPacket != null, "byte[] параметр равен null",

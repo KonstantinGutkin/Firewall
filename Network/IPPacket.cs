@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 
-namespace Network
+namespace lab4.Network
 {
-    class IPPacket : NetworkPacket
+    public class IPPacket : NetworkPacket
     {
         public NetworkAddress SrcIP { get; set; }
         public NetworkAddress DstIP { get; set; }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Network
+namespace lab4.Network
 {
-    abstract class Sniffer
+    public abstract class Sniffer
     {
         public abstract NetworkPacket ConstructPacket(PacketConverter converter,
             byte[] binPacket);

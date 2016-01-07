@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Network
+namespace lab4.Network
 {
-    class TCPPacket : IPPacket
+    public class TCPPacket : IPPacket
     {
         public static int SizeData = 12;
         new public static int Size = IPPacket.Size + 2 * sizeof(ushort) + sizeof(uint) +

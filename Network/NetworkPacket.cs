@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Network
+namespace lab4.Network
 {
     public abstract class NetworkPacket
     {

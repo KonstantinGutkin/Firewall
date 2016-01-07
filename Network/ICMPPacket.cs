@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Network
+namespace lab4.Network
 {
-    class ICMPPacket : IPPacket
+    public class ICMPPacket : IPPacket
     {
         public static int SizeData = 10;
         new public static int Size = IPPacket.Size + 2 * sizeof(byte) + SizeData;

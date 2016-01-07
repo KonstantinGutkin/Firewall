@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace Network
+namespace lab4.Network
 {
     public class NetworkAddress : IComparer<NetworkAddress>
     {

@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Collections.Generic;
 
-namespace Network.Safety
+namespace lab4.Network.Safety
 {
     public abstract class Filter
     {

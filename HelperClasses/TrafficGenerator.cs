@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace HelperClasses
+namespace lab4.HelperClasses
 {
     using PatternObserver;
     using Network;
-
-    class TrafficGenerator : Subject
+    public class TrafficGenerator : Subject
     {
         NetworkAddress _subnet;
         NetworkAddress _mask;

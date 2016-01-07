@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 
-namespace Network.Safety
+namespace lab4.Network.Safety
 {
-    class FilterCommand : FirewallCommand
+    public class FilterCommand : FirewallCommand
     {
         public override NetworkPacket DoWithPacket(Firewall fw, NetworkPacket p) {
             if (p == null) {

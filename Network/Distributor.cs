@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 
-namespace Network
+namespace lab4.Network
 {
     using PatternObserver;
     using HelperClasses;
 
-    class Distributor : IObserver
+    public class Distributor : IObserver
     {
         TrafficGenerator _generator;
         BindingList<string> _location;

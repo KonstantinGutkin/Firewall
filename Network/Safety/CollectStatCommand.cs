@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace Network.Safety
+namespace lab4.Network.Safety
 {
     class CollectStatCommand : FirewallCommand
     {

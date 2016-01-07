@@ -7,12 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using HelperClasses;
-namespace MyForms
+
+namespace lab4.MyForms
 {
     public partial class MainForm : Form
     {
-        TrafficGenerator _generator;
+        HelperClasses.TrafficGenerator _generator;
         Network.Safety.Firewall _firewall;
         Network.VirtualTrafficsSniffer _sniffer;
         Network.Distributor _dbr;
@@ -33,7 +33,7 @@ namespace MyForms
                 new Network.Safety.DistributorToBindingList(_traffic2);
             _firewall = new Network.Safety.Firewall(new Network.Safety.MyFilter(),
                 dbrFirewall);
-            _generator = new TrafficGenerator(2000,
+            _generator = new HelperClasses.TrafficGenerator(2000,
                 new Network.NetworkAddress("192.168.1.0"),
                 new Network.NetworkAddress("255.255.255.240"));
             _sniffer = new Network.VirtualTrafficsSniffer(_generator);

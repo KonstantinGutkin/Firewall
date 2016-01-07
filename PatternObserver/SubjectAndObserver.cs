@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace PatternObserver
+namespace lab4.PatternObserver
 {
     public interface IObserver
     {
